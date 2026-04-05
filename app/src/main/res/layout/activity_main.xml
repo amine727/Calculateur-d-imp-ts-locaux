@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcul des impôts locaux"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/input_nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nom" />
+
+    <EditText
+        android:id="@+id/input_adresse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adresse" />
+
+    <EditText
+        android:id="@+id/input_surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Surface"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/input_pieces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de pièces"
+        android:inputType="number" />
+
+    <CheckBox
+        android:id="@+id/checkbox_piscine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piscine" />
+
+    <Button
+        android:id="@+id/button_calcul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcul" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
